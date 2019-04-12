@@ -13,7 +13,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	try
 	{
 		Proline::pirManager pir;
-		pir.loadConfiguration("D:/Workspace/C++/Iris/myIris/x64/Release/configuration.ini");		
+		pir.loadConfiguration("C:/Users/mbrin/Documents/GitHub/Iris_Image_Matching/x64/Release/Configuration.ini");		
 		pir.run(genImage, testImage, "1.jpg", "2.jpg");
 		std::cout << "matching score: " << pir.getScore() << std::endl;
 
