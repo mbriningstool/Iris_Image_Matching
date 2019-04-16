@@ -15,7 +15,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Proline::pirManager">
-    <Position X="4" Y="2.25" Width="2.5" />
+    <Position X="4" Y="0.5" Width="2.5" />
     <TypeIdentifier>
       <HashCode>AAGIIoAAwICACII0AyA6AgAAAQYQlgyIAFJEpIAAQkA=</HashCode>
       <FileName>pirManager.h</FileName>
