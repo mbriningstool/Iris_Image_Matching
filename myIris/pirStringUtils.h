@@ -1,3 +1,11 @@
+///////////////////////////////////////////
+//Group 6 Iris Recognition
+//CEG4110 Dr. Bourbakis
+//Intro to Software Engineering
+//Original Source code was obtained from 
+//Github user Ekberjan project Iris_Image_Matching
+//OpenCV version 2.4.10 library is also used
+///////////////////////////////////////////
 #ifndef PIR_STRING_UTILS_H
 #define PIR_STRING_UTILS_H
 
