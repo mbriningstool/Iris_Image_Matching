@@ -12,7 +12,11 @@
 //Original Source code was obtained from 
 //Github user Ekberjan project Iris_Image_Matching
 //OpenCV version 2.4.10 library is also used
+<<<<<<< HEAD
+///////////////////////////////////////////
+=======
 ////////////////////////////////////////////
+>>>>>>> c71e5865fd8b82e8b528f8ec083537bb25b98385
 #ifndef PIR_STRING_UTILS_H
 #define PIR_STRING_UTILS_H
 

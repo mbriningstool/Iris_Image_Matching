@@ -637,11 +637,11 @@ namespace Proline
 	// Run pirIris
 	void pirManager::run(cv::Mat & genImage, cv::Mat & testImage, std::string genName, std::string testName)
 	{
-		std::cout << std::endl;
-		std::cout << "================" << std::endl;
-		std::cout << "Start processing ... " << std::endl;
-		std::cout << "================" << std::endl;
-		std::cout << std::endl;
+		//std::cout << std::endl;
+		//std::cout << "================" << std::endl;
+		//std::cout << "Start processing ... " << std::endl;
+		//std::cout << "================" << std::endl;
+		//std::cout << std::endl;
 
 		// If matching is requested, create a file
 		std::ofstream result_matching;
@@ -692,17 +692,17 @@ namespace Proline
 			result_matching.close();
 		}
 
-		std::cout << std::endl;
-		std::cout << "====================" << std::endl;
-		std::cout << "End processing. " << std::endl;
-		std::cout << "====================" << std::endl;
-		std::cout << std::endl;
+		//std::cout << std::endl;
+		//std::cout << "====================" << std::endl;
+		//std::cout << "End processing. " << std::endl;
+		//std::cout << "====================" << std::endl;
+		//std::cout << std::endl;
 
 	} // end of function definition
 
 	double pirManager::getScore()
 	{
-		return 1.0 - score;
+		return ((1.0 - score) >= (0.75));
 	}
 
 
